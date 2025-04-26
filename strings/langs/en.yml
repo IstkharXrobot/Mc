@@ -174,8 +174,8 @@ queue_6 : "<b>🕚 ᴅᴜʀᴀᴛɪᴏɴ :</b> ᴜɴᴋɴᴏᴡɴ ᴅᴜʀᴀᴛ
 queue_7 : "\nᴄʟɪᴄᴋ ᴏɴ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ ᴛᴏ ɢᴇᴛ ᴡʜᴏʟᴇ ǫᴜᴇᴜᴇᴅ ʟɪsᴛ."
 queue_8 : "<b>{0} ᴘʟᴀʏᴇʀ</b>\n\n🎄 <b>sᴛʀᴇᴀᴍɪɴɢ :</b> {1}\n\n🔗 <b>sᴛʀᴇᴀᴍ ᴛʏᴘᴇ :</b> {2}\n🥀 <b>ʀᴇǫᴜᴇsᴛᴇᴅ ʙʏ :</b> {3}\n{4}"
 
-stream_1 : "<b><blockquote>➥ 𝐏ʟʏɪиɢ 𝐎η 𝐒ᴛʀєᴧϻɪηɢ  ⏤͟͞●</blockquote></b>\n\n<b><blockquote>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3}<b></blockquote>\n<b><blockquote> 𝗝𝗮𝗻𝗶 𔘓 𝗠𝘂𝘀𝗶𝗰™ [ 𝐍ᴏ 𝐀ᴅs ] </b></blockquote>"
-stream_2 : "<b><blockquote>➥ 𝐏ʟʏɪиɢ 𝐎η 𝐒ᴛʀєᴧϻɪηɢ  ⏤͟͞●</blockquote></b>\n\n<b><blockquote>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>"
+stream_1 : "<b><blockquote>➥ ᴧησηʏ 𝐎η 𝐒ᴛʀєᴧϻɪηɢ  ⏤͟͞●</blockquote></b>\n\n<b><blockquote>❍ ᴛɪᴛʟє ➥</b> <a href={0}>{1}</a> \n<b>❍ ᴛɪϻє ➥</b> {2} ϻɪηυᴛєs \n<b>❍ ʙʏ ➥</b> {3}<b></blockquote>\n<b><blockquote> ᴛєᴧϻ ᴛʜυηᴅєᴙ </b></blockquote>"
+stream_2 : "<b><blockquote>➥ ᴧησηʏ 𝐎η 𝐒ᴛʀєᴧϻɪηɢ  ⏤͟͞●</blockquote></b>\n\n<b><blockquote>❍ sᴛʀєᴧϻ ᴛʏᴘє ➥</b> ʟɪᴠєsᴛʀєᴧϻ [ υʀʟ ]\n<b>❍ ʙʏ ➥</b> {0}</blockquote>"
 
 CLOSE_BUTTON  : "ᴄʟᴏsᴇ"
 BACK_BUTTON : "ʙᴀᴄᴋ"
