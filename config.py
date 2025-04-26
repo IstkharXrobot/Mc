@@ -77,34 +77,22 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = [
-    "https://telegra.ph/file/8fb11f38033d3195c9c8c.jpg",
-    "https://telegra.ph/file/106167c80a3fc3ab9f1e8.jpg",
-    "https://telegra.ph/file/89070543c0f7f2e51118d.jpg",
-    "https://telegra.ph/file/3a0afc7a07f35747684eb.jpg",
-    "https://telegra.ph/file/0db46c5fca2c69829a7d4.jpg",
-    "https://telegra.ph/file/f7e5522656c24abf1bd90.jpg",
-    "https://telegra.ph/file/621f76810deb42513f345.jpg",
-    "https://telegra.ph/file/095d4d1a638bd42e54189.jpg",
-    "https://telegra.ph/file/0a6cf2af7eead7fcb0745.jpg",
-]
-
-PING_VID_URL = getenv(
-    "PING_VID_URL", "https://graph.org/file/babb71b593f36549218ce.jpg"
-    )
-
-PLAYLIST_IMG_URL = "https://graph.org/file/4a254d425fb4bf09b7470.jpg"
-STATS_VID_URL = "https://graph.org/file/51f37e3c2d4aaff5cf80e.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/df01978f91c14b16292f1.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/a6e3e9d54c8b2e01787b6.jpg"
-STREAM_IMG_URL = "https://graph.org/file/49bcbc23be713fbe06bac.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/809651f9be99ee2bf76ab.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/134c9f52f4ba0f7691cd1.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4b5c2174d7f38b4b4abd7.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/80feff5bb4a03cf331945.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0379defeb51910065beac.jpg"
-FAILED = "https://graph.org/file/323b07bccd5e5e1f81f61.jpg"
-
+START_IMG_URL = getenv(
+    "START_IMG_URL", "https://telegra.ph/file/b61227af05544deb76a34.jpg"
+)
+PING_IMG_URL = getenv(
+    "PING_IMG_URL", "https://telegra.ph/file/7bb907999ea7156227283.jpg"
+)
+PLAYLIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+STATS_IMG_URL = "https://telegra.ph/file/d30d11c4365c025c25e3e.jpg"
+TELEGRAM_AUDIO_URL = "https://telegra.ph/file/48f39202823b358203234.jpg"
+TELEGRAM_VIDEO_URL = "https://telegra.ph/file/e575ae40d6635250974e1.jpg"
+STREAM_IMG_URL = "https://telegra.ph/file/03efec694e41e891b29dc.jpg"
+SOUNCLOUD_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+YOUTUBE_IMG_URL = "https://telegra.ph/file/4dc854f961cd3ce46899b.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://telegra.ph/file/d723f4c80da157fca1678.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://telegra.ph/file/6c741a6bc1e1663ac96fc.jpg"
 def time_to_seconds(time):
     stringt = str(time)
     return sum(int(x) * 60**i for i, x in enumerate(reversed(stringt.split(":"))))
