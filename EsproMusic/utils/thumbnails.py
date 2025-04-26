@@ -5,9 +5,9 @@ from EsproMusic import app
 from config import YOUTUBE_IMG_URL
 
 # Load fonts once (optimization)
-arial = ImageFont.truetype("ERAVIBES/assets/font2.ttf", 30)
-font = ImageFont.truetype("ERAVIBES/assets/font.ttf", 30)
-title_font = ImageFont.truetype("ERAVIBES/assets/font3.ttf", 45)
+arial = ImageFont.truetype("EsproMusic/assets/font2.ttf", 30)
+font = ImageFont.truetype("EsproMusic/assets/font.ttf", 30)
+title_font = ImageFont.truetype("EsproMusic/assets/font3.ttf", 45)
 
 def changeImageSize(maxWidth, maxHeight, image):
     widthRatio = maxWidth / image.size[0]
