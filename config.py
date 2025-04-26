@@ -32,15 +32,15 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/fighterrbd/Jani-Music",
+    "https://github.com/IstkharXrobot/Mc",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
     "GIT_TOKEN", None
 )  # Fill this variable if your upstream repository is private
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/+gJkgYDST7zRhY2U1")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+gJkgYDST7zRhY2U1")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/THUNDERDEVS")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+PaEtaAu9DI9mYzc9")
 
 # Set this to True if you want the assistant to automatically leave chats after an interval
 AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", False))
@@ -77,23 +77,33 @@ autoclean = []
 confirmer = {}
 
 
-START_IMG_URL = getenv(
-    "START_IMG_URL", "https://files.catbox.moe/yd51bx.jpg"
-)
-PING_IMG_URL = getenv(
-    "PING_IMG_URL", "https://files.catbox.moe/yd51bx.jpg"
-)
-PLAYLIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-STATS_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-TELEGRAM_AUDIO_URL = "https://files.catbox.moe/yd51bx.jpg"
-TELEGRAM_VIDEO_URL = "https://files.catbox.moe/yd51bx.jpg"
-STREAM_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SOUNCLOUD_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-YOUTUBE_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/yd51bx.jpg"
+START_IMG_URL = [
+    "https://telegra.ph/file/8fb11f38033d3195c9c8c.jpg",
+    "https://telegra.ph/file/106167c80a3fc3ab9f1e8.jpg",
+    "https://telegra.ph/file/89070543c0f7f2e51118d.jpg",
+    "https://telegra.ph/file/3a0afc7a07f35747684eb.jpg",
+    "https://telegra.ph/file/0db46c5fca2c69829a7d4.jpg",
+    "https://telegra.ph/file/f7e5522656c24abf1bd90.jpg",
+    "https://telegra.ph/file/621f76810deb42513f345.jpg",
+    "https://telegra.ph/file/095d4d1a638bd42e54189.jpg",
+    "https://telegra.ph/file/0a6cf2af7eead7fcb0745.jpg",
+]
 
+PING_VID_URL = getenv(
+    "PING_VID_URL", "https://graph.org/file/babb71b593f36549218ce.jpg"
+    )
+
+PLAYLIST_IMG_URL = "https://graph.org/file/4a254d425fb4bf09b7470.jpg"
+STATS_VID_URL = "https://graph.org/file/51f37e3c2d4aaff5cf80e.jpg"
+TELEGRAM_AUDIO_URL = "https://graph.org/file/df01978f91c14b16292f1.jpg"
+TELEGRAM_VIDEO_URL = "https://graph.org/file/a6e3e9d54c8b2e01787b6.jpg"
+STREAM_IMG_URL = "https://graph.org/file/49bcbc23be713fbe06bac.jpg"
+SOUNCLOUD_IMG_URL = "https://graph.org/file/809651f9be99ee2bf76ab.jpg"
+YOUTUBE_IMG_URL = "https://graph.org/file/134c9f52f4ba0f7691cd1.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/4b5c2174d7f38b4b4abd7.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/80feff5bb4a03cf331945.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/0379defeb51910065beac.jpg"
+FAILED = "https://graph.org/file/323b07bccd5e5e1f81f61.jpg"
 
 def time_to_seconds(time):
     stringt = str(time)
